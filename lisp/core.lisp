@@ -26,5 +26,3 @@
     ((< duracion 35) "Ciclo ineficiente: Muy corto para la psicología del conductor.")
     ((> duracion 150) "Ciclo ineficiente (Peligro): Mayor a 150s, los usuarios tienden a evitarlo.")
     (t "Ciclo óptimo: Se acomoda perfectamente a la mentalidad del usuario.")))
-
-;; ========================================================
