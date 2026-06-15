@@ -16,3 +16,17 @@ else {
   (colorActual, "accion-por-defecto")
 }
 
+// ========================================================================
+ // FUNCIÓN: timer
+ // NATURALEZA: Pura (Dado un timestamp idéntico, siempre retorna el mismo color)
+ // ESTRATEGIA DE CONTROL: Evaluación Condicional por Rangos Temporales
+ // IMPACTO EN MEMORIA: No Destructiva (Asigna valores inmutables en Stack) 
+// ========================================================================
+def timer (timestampActual: Long):
+ String = {val duracionTotal = 219    // 90 + 120 + 6 + 3 
+val momentoCiclo = timestampActual % duracionTotal
+ if (momentoCiclo < 90) {"en-rojo” 
+} else if (momentoCiclo < 210) {"en-verde"   // 90 + 120
+} else if (momentoCiclo < 216) {"en-amarillo" // 90 + 120 + 6
+} else {"amarillo-intermitente"}
+}
