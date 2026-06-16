@@ -1691,3 +1691,5 @@
 2026.06.16 19:32:49 INFO  Scala CLI started for C:\Users\lucas\OneDrive\Desktop\TPI-Funcional-2026-Grupo-7
 2026.06.16 19:32:49 WARN  no build tool detected in workspace 'C:\Users\lucas\OneDrive\Desktop\TPI-Funcional-2026-Grupo-7'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2026.06.16 19:32:49 WARN  Build server is not auto-connectable.
+jun. 16, 2026 8:01:56 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
