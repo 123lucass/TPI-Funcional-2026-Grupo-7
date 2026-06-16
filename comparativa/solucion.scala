@@ -14,7 +14,8 @@ else if (colorActual == "en-verde" && cambiarA == "amarillo")
 { ("amarillo-intermitente", "cambiar-a-rojo") }
 else {
   (colorActual, "accion-por-defecto")
-}
+ }
+}           
 
 // ========================================================================
  // FUNCIÓN: timer
