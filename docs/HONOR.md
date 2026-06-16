@@ -60,7 +60,7 @@ Como parte de nuestra formación profesional y ética académica, declaro de for
 
 ---
 
-### 📝 Aclaraciones y Alcance de la Asistencia de IA
+### Aclaraciones y Alcance de la Asistencia de IA
 
 **Declaración de transparencia sobre el uso de Inteligencia Artificial:**
 
