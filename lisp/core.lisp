@@ -6,8 +6,8 @@
 ;; IMPACTO: No destructiva
 ;; ========================================================
 (defun registrar-cambio (epoch color-anterior color-nuevo)
-  "Imprime en la terminal el log con formato forense para auditoría."
-  (format t "Tiempo <~A>: la luz ha cambiado de <~A> a <~A>~%" 
+  "Imprime el log usando tiempo unix crudo sin librerias externas."
+  (format t "Tiempo Unix <~A>: la luz ha cambiado de <~A> a <~A>~%" 
           epoch color-anterior color-nuevo))
 ;; ========================================================
 ;; REQUERIMIENTO 4: Análisis de Ciclos Semafóricos
