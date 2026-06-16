@@ -5,7 +5,6 @@
 ;; IMPACTO: Con efectos colaterales (Invoca a la función registrar-cambio)
 ;; =================================================================
 (defun simular-linea-tiempo (timestamp-actual timestamp-fin color-anterior)
-  "Simula el paso del tiempo segundo a segundo de forma puramente recursiva."
   (if (> timestamp-actual timestamp-fin)
       'SIMULACION-COMPLETADA
       (let ((color-actual (timer timestamp-actual)))
