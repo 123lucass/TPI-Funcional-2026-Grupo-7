@@ -5,7 +5,6 @@
 ;; IMPACTO: Inmutable (Retorna un símbolo independiente sin alterar el estado)
 ;; =================================================================
 (defun timer (timestamp-actual)
-  "Calcula automáticamente qué color debe estar activo en el timestamp dado."
   (let* ((duracion-total 219)
          (momento-ciclo (mod timestamp-actual duracion-total)))
     (cond
@@ -21,7 +20,6 @@
 ;; IMPACTO: No destructiva (Genera y retorna una estructura de lista nueva)
 ;; =================================================================
 (defun transicion (color-actual cambiar-a)
-  "Devuelve una lista con el estado y la acción según el ejemplo de la cátedra."
   (cond
     ((and (eq color-actual 'en-rojo) (eq cambiar-a 'amarillo))
      (list 'en-rojo "cambiar-a-amarillo"))
