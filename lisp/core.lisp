@@ -1,4 +1,9 @@
-;timer.lisp
+;; =================================================================
+;; FUNCIÓN: timer
+;; NATURALEZA: Pura (Cálculo matemático determinista sin efectos secundarios)
+;; ESTRATEGIA: Composición Funcional / Aritmética Plana (Operación Módulo)
+;; IMPACTO: Inmutable (Retorna un símbolo independiente sin alterar el estado)
+;; =================================================================
 (defun timer (timestamp-actual)
   "Calcula automáticamente qué color debe estar activo en el timestamp dado."
   (let* ((duracion-total 219)
@@ -9,7 +14,12 @@
       ((< momento-ciclo 211) 'en-verde)
       ((< momento-ciclo 216) 'en-amarillo)
       (t 'amarillo-intermitente))))
-;transicion.lisp
+;; =================================================================
+;; FUNCIÓN: transicion
+;; NATURALEZA: Pura (Determinista, libre de efectos colaterales en el sistema)
+;; ESTRATEGIA: Condicional Declarativo / Evaluación Estricta de Predicados
+;; IMPACTO: No destructiva (Genera y retorna una estructura de lista nueva)
+;; =================================================================
 (defun transicion (color-actual cambiar-a)
   "Devuelve una lista con el estado y la acción según el ejemplo de la cátedra."
   (cond
@@ -20,8 +30,8 @@
     ((and (eq color-actual 'en-verde) (eq cambiar-a 'amarillo))
      (list 'en-verde "cambiar-a-amarillo"))  
     ((and (eq color-actual 'en-amarillo) (eq cambiar-a 'amarillo-intermitente))
-     (list 'en-amarillo "cambiar-a-amarillo-intermitente"))
-     ((and (eq color-actual 'amarillo-intermitente) (eq cambiar-a 'rojo))
+     (list 'en-amarillo "cambiar-a-yellow-intermitente"))
+    ((and (eq color-actual 'amarillo-intermitente) (eq cambiar-a 'rojo))
      (list 'amarillo-intermitente "cambiar-a-rojo"))
     (t
      (list color-actual 'accion-por-defecto))))
