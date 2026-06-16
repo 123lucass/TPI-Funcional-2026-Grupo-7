@@ -70,6 +70,53 @@ De acuerdo con los principios de honestidad académica, declaro que utilicé her
 2. **Análisis Lógico de Coherencia Vial:** Revisión conjunta y auditoría del comportamiento del temporizador (timer.lisp) para asegurar que los rangos cronológicos del ciclo de 219 segundos coincidieran de manera milimétrica con las reglas de seguridad vial urbana definidas por nuestro grupo, obligando al sistema a transicionar por el estado amarillo en las fases de arranque y frenado.
 3. **Refactorización Arquitectónica:** Soporte técnico para de-sacoplar y modularizar el código del repositorio, separando las funciones principales en archivos independientes de Common Lisp para facilitar el posterior acoplamiento ordenado en el archivo principal, garantizando a su vez la inmutabilidad de los datos.
 
+
+
+----------------------------------------
+Integrante 4: Enzo Cuenca Mario Ramon
+----------------------------------------
+----------------------------------------
+Código de Honor y Declaración de Autoría
+----------------------------------------
+----------------------------------------
+Alumno: Enzo Cuenca Mario Ramon
+----------------------------------------
+Como parte de nuestra formación profesional y ética académica, declaro de forma transparente el alcance y uso de herramientas de Inteligencia Artificial en este proyecto.
+-----------------------------------------
+
+ 1. Código en Common Lisp (Fase 1 y 2)
+---------------------------------------
+[  ] Desarrollo 100% Humano: El código fue diseñado, escrito y depurado puramente por mí/el grupo sin intervención de IA.
+---------------------------------------
+---------------------------------------
+[X] Asistencia de IA (Co-piloto): Utilicé IA como un tutor o documentación dinámica (búsqueda de errores sintácticos, explicación de funciones primitivas), pero la lógica y clasificación del semáforo fue estructurada por el grupo.
+---------------------------------------
+---------------------------------------
+[  ] Generación Completa por IA: Un modelo de IA generó bloques enteros o la totalidad de las funciones principales a partir del enunciado base.
+---------------------------------------
+---------------------------------------
+3. Código del Lenguaje Asignado (Fase 3)
+---------------------------------------
+---------------------------------------
+[  ] Desarrollo 100% Humano: Aprendí la sintaxis básica, clasifiqué sus componentes y escribí la solución de forma autónoma.
+---------------------------------------
+---------------------------------------
+[X] Asistencia de IA: Utilicé la IA para traducir la sintaxis de Lisp al nuevo lenguaje o entender los errores del compilador ajeno.
+---------------------------------------
+---------------------------------------
+[  ] Generación Completa por IA: La IA realizó la traducción automática de las funciones transicion y timer.
+---------------------------------------
+---------------------------------------
+5. Redacción del Informe y Respuestas Teóricas
+---------------------------------------
+---------------------------------------
+[  ] Autoría Propia: Las explicaciones de los conceptos de los lenguajes y el análisis comparativo reflejan nuestras propias conclusiones conceptuales.
+---------------------------------------
+---------------------------------------
+[X] Redacción Asistida / Generada: La IA redactó o fundamentó las respuestas teóricas basadas en prompts conceptuales proporcionados por el grupo.
+---------------------------------------
+[  ] Generación completa por IA
+---------------------------------------
 *La estructuración lógica, la justificación de los rangos viales del semáforo, el análisis conceptual del paradigma funcional y la defensa del código reflejada en el video explicativo son de autoría y asimilación absoluta del grupo.*
 
 ---
