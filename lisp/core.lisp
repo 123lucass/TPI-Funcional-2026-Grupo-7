@@ -5,7 +5,7 @@
 ;; IMPACTO: No destructiva
 ;; ========================================================
 (defun ciclos-por-tiempo (tiempo-en-minutos)
-  "Calcula la cantidad de ciclos completos que entran en los minutos dados."
+  
   (let ((segundos-totales (* tiempo-en-minutos 60)))
     (floor segundos-totales (duracion-ciclo))))
 
@@ -16,7 +16,7 @@
 ;; IMPACTO: No destructiva
 ;; ========================================================
 (defun informe-distribucion-1hora ()
-  "Calcula el porcentaje de tiempo que cada color estará activo durante una hora."
+ 
   (let* ((ciclo-total             (duracion-ciclo))
          (rojo-porcentaje         (* (/ 90  ciclo-total) 100.0))
          (verde-porcentaje        (* (/ 120 ciclo-total) 100.0))
