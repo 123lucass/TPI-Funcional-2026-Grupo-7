@@ -13,8 +13,6 @@
 ;; IMPACTO: No destructiva (Solo lectura y reporte, no modifica el estado del sistema)
 ;; ========================================================
 (defun registrar-cambio (epoca color-anterior color-nuevo)
-  "Imprime en la terminal el log mostrando la fecha y hora en formato legible [AAAA-MM-DD HH:MM:SS]."
-
   (let* ((objeto-tiempo (local-time:unix-to-timestamp epoca))
          (tiempo-humano (local-time:format-timestring nil objeto-tiempo
                           :format '("[" :year "-" (:month 2) "-" (:day 2) " "
