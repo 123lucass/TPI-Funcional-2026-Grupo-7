@@ -26,7 +26,7 @@ else {
 def timer (timestampActual: Long):
  String = {val duracionTotal = 219    // 90 + 120 + 6 + 3 
 val momentoCiclo = timestampActual % duracionTotal
- if (momentoCiclo < 90) {"en-rojo” 
+ if (momentoCiclo < 90) {"en-rojo" 
 } else if (momentoCiclo < 210) {"en-verde"   // 90 + 120
 } else if (momentoCiclo < 216) {"en-amarillo" // 90 + 120 + 6
 } else {"amarillo-intermitente"}
