@@ -1693,3 +1693,8 @@
 2026.06.16 19:32:49 WARN  Build server is not auto-connectable.
 jun. 16, 2026 8:01:56 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFORMACIÓN: Unsupported notification method: $/setTrace
+jun. 16, 2026 8:27:25 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.06.16 20:29:23 WARN  No build server connected
+2026.06.16 20:29:26 INFO  compiling tpi-funcional-2026-grupo-7_d5c0a6989e (1 scala source)
+2026.06.16 20:29:29 INFO  time: compiled TPI-Funcional-2026-Grupo-7_d5c0a6989e in 2.77s
