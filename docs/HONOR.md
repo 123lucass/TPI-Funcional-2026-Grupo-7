@@ -1,5 +1,7 @@
 ----------------------------------------
 Código de Honor y Declaración de Autoría
+----------------------------------------
+----------------------------------------
 Alumno: Enzo Cuenca Mario Ramon
 ----------------------------------------
 Como parte de nuestra formación profesional y ética académica, declaro de forma transparente el alcance y uso de herramientas de Inteligencia Artificial en este proyecto.
