@@ -23,6 +23,6 @@
 (defun recomendacion-ciclo (duracion)
   "Entrega una recomendación de optimización basada en la psicología del conductor."
   (cond
-    ((< duracion 35) "Ciclo ineficiente: Muy corto para la psicología del conductor.")
-    ((> duracion 150) "Ciclo ineficiente (Peligro): Mayor a 150s, los usuarios tienden a evitarlo.")
-    (t "Ciclo óptimo: Se acomoda perfectamente a la mentalidad del usuario.")))
+    ((< duracion 35) "Ciclo ineficiente.")
+    ((> duracion 150) "Ciclo ineficiente (Peligro).")
+    (t "Ciclo óptimo.")))
