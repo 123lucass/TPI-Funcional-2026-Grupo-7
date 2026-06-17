@@ -21,7 +21,7 @@
 
 ## 🎥 Video de Defensa
 
-🔗 (LINK VIDEO)
+🔗 ([LINK VIDEO](https://youtu.be/fvz4QUj6NSc))
 
 ---
 
