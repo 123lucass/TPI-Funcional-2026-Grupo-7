@@ -13,7 +13,7 @@
 | Lucas | @123lucass | Coordinador — R5, R6, informe
 | Gustavo Gabutti | @Gustavo-Gabutti | R1, R2 
 | Lucas Lombardi | @lucasLomb | R3, R4 | Scala
-| Enzo | @enzo | R7, exenciones 
+| Enzo | @enzo | R7, extenciones 
 
 ---
 
