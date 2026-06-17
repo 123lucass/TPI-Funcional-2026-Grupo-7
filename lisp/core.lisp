@@ -77,7 +77,7 @@
 (defun ciclos-por-tiempo (tiempo-en-minutos)
   
   (let ((segundos-totales (* tiempo-en-minutos 60)))
-    (floor segundos-totales (duracion-ciclo))))
+    (truncate segundos-totales (duracion-ciclo))))
 
 ;; ========================================================
 ;; FUNCIÓN: informe-distribucion-1hora
