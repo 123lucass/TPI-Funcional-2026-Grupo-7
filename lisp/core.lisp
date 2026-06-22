@@ -71,7 +71,7 @@
 ;; ========================================================
 ;; FUNCIÓN: ciclos-por-tiempo
 ;; NATURALEZA: Pura (mismo input siempre retorna mismo resultado)
-;; ESTRATEGIA: Composición funcional aritmética (floor)
+;; ESTRATEGIA: Composición funcional aritmética (truncate)
 ;; IMPACTO: No destructiva
 ;; ========================================================
 (defun ciclos-por-tiempo (tiempo-en-minutos)
